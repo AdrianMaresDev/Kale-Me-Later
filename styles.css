@@ -25,16 +25,25 @@ ul{
 .header-nav{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 1rem;
-    background-color: #fff;
+    background-color: #F6F5F4;
 }
 
 .header-nav ul{
     display: flex;
+    padding: 1rem;
+    margin-right: 2rem;
 }
 
 .header-nav ul li{
-    padding-right: 3rem;
+    padding: 0.5rem;
+    margin-right: 2rem;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.header-nav ul li:hover{
+    background-color: #F6CFAE;
+    border-radius: 5px;
 }
 
 /*HERO SECTION*/
@@ -46,14 +55,15 @@ ul{
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(images/kalemelater4.jpg);
 }
 
-.title{
-    font-size: 1.1rem;
-    padding-left: 3rem;
+.logo{
+    width: 200px;
+    margin-left: 4rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
 }
 
 h1{
-    font-family: 'Lora', sans-serif;
-    font-weight: 500;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 5rem;
     width: 40%;
     margin-left: 4rem;
